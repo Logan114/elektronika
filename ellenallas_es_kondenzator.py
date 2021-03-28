@@ -35,7 +35,7 @@ def Ur():
 def Uc():
     Xc = int(float(input('\n R=')))
     Ic= int(float(input('\n Ir=')))
-    Uc = kepletek.nUc(R,Ir)
+    Uc = kepletek.nUc(Xc,Ic)
     print ("\n",Uc, "V")
     
 def Ube():
